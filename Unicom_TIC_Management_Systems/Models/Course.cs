@@ -8,5 +8,8 @@ namespace Unicom_TIC_Management_Systems.Models
 {
     internal class Course
     {
+        public string course_name {  get; set; }
+        public int course_id { get; set; }
     }
 }
+      

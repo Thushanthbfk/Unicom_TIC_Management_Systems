@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Unicom_TIC_Management_Systems.Data;
+using Unicom_TIC_Management_Systems.view;
 
 namespace Unicom_TIC_Management_Systems
 {
@@ -18,7 +19,8 @@ namespace Unicom_TIC_Management_Systems
             Migration.CreatetablenotExists();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
+            Application.Run(new Courseform());
+
         }
     }
 }

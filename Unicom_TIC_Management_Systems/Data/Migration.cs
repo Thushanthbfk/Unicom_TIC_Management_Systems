@@ -95,11 +95,14 @@ namespace Unicom_TIC_Management_Systems.Data
 );
 
 
+
+
    
 ";
 
                 SQLiteCommand command = new SQLiteCommand(createTableQuery, conn);
                 command.ExecuteNonQuery();
+                
 
 
 
